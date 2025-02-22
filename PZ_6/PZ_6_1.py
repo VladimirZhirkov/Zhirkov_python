@@ -9,7 +9,7 @@ def print_multiples_elements():
         a = list(range(1, n + 1))
         print("Список A:", a)
         
-        result = [a[i]] for i in range(k - 1, n, k)]
+        result = [a[i] for i in range(k - 1, n, k)]
         print(f"Элементы с номерами, кратными {k}:", result)
     
     except ValueError as e:
