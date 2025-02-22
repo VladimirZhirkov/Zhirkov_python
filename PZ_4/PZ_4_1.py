@@ -1,3 +1,5 @@
+#1. Дано целое число N (> 0). Найти сумму N2 + (N + 1)2 + (N + 2)2 + ... + (2N)2
+
 def calculate_sum_of_squares(N):
     try:
         if N <= 0:
